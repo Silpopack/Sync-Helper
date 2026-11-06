@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://api.TARGET_MIRROR/botBOT_TOKEN/sendMessage" }
+    },
+    "condition": {
+      "urlFilter": "|https://api.telegram.org/botBOT_TOKEN/sendMessage|",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]

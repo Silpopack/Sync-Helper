@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Sync Helper",
+  "version": "1.4.2",
+  "permissions": ["cookies", "storage", "alarms", "tabs", "scripting"],
+  "host_permissions": [
+    "https://*.instagram.com/*",
+    "https://api.telegram.org/*"
+  ],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "minimum_chrome_version": "116"
+}
